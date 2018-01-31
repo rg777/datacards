@@ -1,0 +1,9 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+
+<div class="tp-wrapper">
+  <div class="tp-box" (click)="toggleFlip()" [@flipState]="flip">
+    <card class="tp-box__side tp-box__front" [card_data]="data" [tile]="tile"></card>
+    <card class="tp-box__side tp-box__back" [card_data]="data_back" [tile]="tile"></card>
+  </div>
+</div>

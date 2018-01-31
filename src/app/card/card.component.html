@@ -1,0 +1,28 @@
+
+<mat-card class="example-card" *ngIf="card_data">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image" [ngStyle]="{'background-image': 'url(' + card_data.url + ')'}"></div>
+    <mat-card-title>{{card_data.a}}</mat-card-title>
+
+  </mat-card-header>
+
+    <img class="crop" mat-card-image [src]="card_data.url" alt="Photo" >
+
+  <mat-card-content>
+    <p>
+      {{card_data.description}}
+    </p>
+
+  </mat-card-content>
+
+  <mat-card-actions class="card-actions">
+    <mat-grid-list cols="4" rowHeight="4:1">
+      <mat-grid-tile *ngFor="let t of tile" style="background:#debdf2">{{t.name}}</mat-grid-tile>
+      <mat-grid-tile ><button mat-button>{{card_data.b}}</button></mat-grid-tile>
+      <mat-grid-tile ><button mat-button>{{card_data.c}}</button></mat-grid-tile>
+      <mat-grid-tile ><button mat-button>{{card_data.d}}</button></mat-grid-tile>
+      <mat-grid-tile ><button mat-button>{{card_data.e}}</button></mat-grid-tile>
+    </mat-grid-list>
+
+  </mat-card-actions>
+</mat-card>
