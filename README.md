@@ -2,9 +2,18 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.5.
 
+##Demo
+
+You can have a quick preview of this project hosted on firebase from this link [Data Cards](https://kanji-1306.firebaseapp.com/)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Firebase Cloud functions
+This project makes calls to firebase cloud functions to retrieve data for the cards. You can get a json data by making a GET request to the cloud function easily. For ex. https://us-central1-kanji-1306.cloudfunctions.net/wikidata fetches data for one card at a time.
+The code is maintained in a separate repository xxxx.
+The cloud functions call wikidata query to get data on runtime.
 
 ## Code scaffolding
 
@@ -25,5 +34,3 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-
-Hello World
