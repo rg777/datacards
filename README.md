@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.5.
 
-##Demo
+## Demo
 
 You can have a quick preview of this project hosted on firebase from this link [Data Cards](https://kanji-1306.firebaseapp.com/)
 
