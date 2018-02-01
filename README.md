@@ -12,7 +12,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Firebase Cloud functions
 This project makes calls to firebase cloud functions to retrieve data for the cards. You can get a json data by making a GET request to the cloud function easily. For ex. https://us-central1-kanji-1306.cloudfunctions.net/wikidata fetches data for one card at a time.
-The code is maintained in a separate repository xxxx.
+The code is maintained in a separate repository [Datacards-functions](https://github.com/rg777/datacards_function).
 The cloud functions call wikidata query to get data on runtime.
 
 ## Code scaffolding
